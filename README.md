@@ -1,6 +1,6 @@
 # Arch Linux Setup
 
-Este repositório contém meu script de pós-instalação e arquivos de configuração para um ambiente **Wayland**, os script de instalação foi feito para ser executado em uma instalação minima do sistema.
+Este repositório contém meu script de pós-instalação e arquivos de configuração para um ambiente **Wayland**, o script de instalação foi feito para ser executado em uma instalação minima do sistema.
 
 ## Como instalar
 
