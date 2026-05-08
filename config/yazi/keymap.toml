@@ -1,0 +1,8 @@
+[[mgr.prepend_keymap]]
+on   = [ "g", "m" ]
+run  = "cd /run/media"
+desc = "Go to USB Stick"
+
+[[mgr.prepend_keymap]]
+on  = "M"
+run = "plugin mount"

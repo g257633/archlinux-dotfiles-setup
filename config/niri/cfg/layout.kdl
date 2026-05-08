@@ -1,0 +1,51 @@
+layout {
+    gaps 10
+    center-focused-column "never"
+    background-color "transparent"
+    preset-column-widths {
+        //proportion 0.33333
+        //proportion 0.5
+        //proportion 0.66667
+        proportion 0.25
+        proportion 0.34375
+        // fixed 1920
+    }
+
+    // preset-window-heights { }
+
+    default-column-width { proportion 0.5; }
+
+    focus-ring {
+        // off
+        width 2
+
+        //active-color "red"
+        inactive-color "#505050"
+    }
+
+    border {
+        off
+        width 4
+        active-color "#ffc87f"
+        inactive-color "#505050"
+        urgent-color "#9b0000"
+        // active-gradient from="#e5989b" to="#ffb4a2" angle=45 relative-to="workspace-view" in="oklch longer hue"
+        // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
+    }
+
+    shadow {
+        on
+        // draw-behind-window true
+        softness 2
+        spread 2
+        offset x=3 y=3
+        //color "#0007"
+    }
+
+    struts {
+        // left 64
+        // right 64
+        top 5
+        // bottom 64
+    }
+}

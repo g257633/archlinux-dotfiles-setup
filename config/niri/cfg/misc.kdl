@@ -1,0 +1,39 @@
+layer-rule {
+  match namespace="^noctalia-wallpaper*"
+  place-within-backdrop true
+}
+cursor {
+  hide-when-typing
+}
+
+overview {
+  workspace-shadow {
+    off
+  }
+}
+
+blur {
+    // off
+    passes 2
+    offset 1.7
+    noise 0.03
+    saturation 1.75
+}
+
+switch-events {
+    lid-close { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "lockAndSuspend"; }
+}
+
+debug {
+  honor-xdg-activation-with-invalid-serial
+}
+
+
+hotkey-overlay {
+    skip-at-startup
+}
+
+prefer-no-csd
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+// screenshot-path null

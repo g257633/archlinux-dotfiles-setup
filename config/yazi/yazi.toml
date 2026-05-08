@@ -1,0 +1,10 @@
+[opener]
+zathura_sandbox = [
+    { run = '/usr/bin/zathura-sandbox "$@"', orphan = true, desc = "Zathura Sandbox", for = "unix" }
+]
+
+[open]
+prepend_rules = [
+    { mime = "application/pdf", use = "zathura_sandbox" },
+    { name = "*.pdf", use = "zathura_sandbox" }
+]
