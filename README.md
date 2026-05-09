@@ -7,6 +7,6 @@ Este repositório contém meu script de pós-instalação e arquivos de configur
 Abra o seu terminal e execute:
 
 ```bash
-git clone [https://github.com/g257633/archlinux-dotfiles-setup.git](https://github.com/g257633/archlinux-dotfiles-setup.git)
+git clone https://github.com/g257633/archlinux-dotfiles-setup.git
 cd archlinux-dotfiles-setup
 bash install.sh

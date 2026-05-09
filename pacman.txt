@@ -36,7 +36,6 @@ smartmontools
 sof-firmware
 swappy
 ttf-cascadia-mono-nerd
-ttf-jetbrains-mono-nerd
 vim
 wev
 wezterm
