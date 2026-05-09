@@ -6,5 +6,4 @@ zathura_sandbox = [
 [open]
 prepend_rules = [
     { mime = "application/pdf", use = "zathura_sandbox" },
-    { name = "*.pdf", use = "zathura_sandbox" }
 ]
