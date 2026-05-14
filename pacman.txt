@@ -35,6 +35,7 @@ s-tui
 smartmontools
 sof-firmware
 swappy
+tesseract-data-eng
 ttf-cascadia-mono-nerd
 vim
 wev
@@ -50,4 +51,4 @@ xorg-xwayland
 xwayland-satellite
 yazi
 yt-dlp
-zathura-pdf-poppler
+zathura-pdf-mupdf
