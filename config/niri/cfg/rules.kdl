@@ -33,8 +33,8 @@ window-rule {
 window-rule {
     match app-id="mpv$" 
     open-floating true
-    default-column-width { fixed 660; }
-    default-window-height { fixed 360; }
+    default-column-width { fixed 768; }
+    default-window-height { fixed 432; }
 }
 
 window-rule {
