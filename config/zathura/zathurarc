@@ -1,1 +1,3 @@
 include noctaliarc
+set synctex true
+set synctex-editor-command "texstudio --line %{line} %{input}"
