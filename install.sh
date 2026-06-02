@@ -15,7 +15,7 @@ if ! command -v paru &>/dev/null; then
 fi
 
 echo "Instaling packages from the AUR..."
-paru -S --needed --noconfirm noctalia-shell redhat-fonts zen-browser-bin
+paru -S --needed --noconfirm noctalia-shell redhat-fonts zen-browser-bin hunspell-pt-br
 
 echo "Installing display manager..."
 sudo install -Dm 644 ./greetd/config.toml /etc/greetd/config.toml
