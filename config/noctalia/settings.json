@@ -183,6 +183,13 @@
                     "showUnreadBadge": true,
                     "unreadBadgeColor": "primary"
                 },
+                    "defaultSettings": {
+                        "connectedColor": "primary",
+                        "disconnectedColor": "none",
+                        "refreshInterval": 5000
+                    },
+                    "id": "plugin:cloudflare-warp"
+                },
                 {
                     "displayMode": "onhover",
                     "iconColor": "none",
