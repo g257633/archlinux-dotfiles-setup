@@ -74,12 +74,12 @@ window-rule {
 }
 
 window-rule {
-  match app-id="texstudio$"
+  match app-id="texstudio$" title="home"
   default-column-width { proportion 0.6; }
 }
 
 window-rule {
-  match app-id="texstudio$" title="^TeXstudio$"
+  match app-id="texstudio" title="^TeXstudio$"
   open-floating true
 }
 
