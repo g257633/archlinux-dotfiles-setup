@@ -1,18 +1,16 @@
 [commands]
 reboot = [ "systemctl", "reboot" ]
 poweroff = [ "systemctl", "poweroff" ]
-
 [GTK]
+css_file = "/etc/greetd/regreet.css"
 application_prefer_dark_theme = true
 cursor_blink = true
 font_name = "RedHatDisplay-Light 12"
 icon_theme_name = "Adwaita"
 theme_name = "Adwaita"
-
 [background]
-path = "/usr/share/backgrounds/archlinux/reflected.jpg"
+path = "/usr/share/backgrounds/greeter.jpg"
 fit = "Fill"
-
 [widget.clock]
 format = "%H:%M - %a, %b %d"
 resolution = "500ms"
