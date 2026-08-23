@@ -15,14 +15,13 @@ if ! command -v paru &>/dev/null; then
 fi
 
 echo "Instaling packages from the AUR..."
-paru -S --needed --noconfirm noctalia-shell redhat-fonts zen-browser-bin hunspell-pt-br cloudflare-warp-bin
+paru -S --needed --noconfirm noctalia-greeter redhat-fonts
+
+echo "Instaling packages from flathub..."
+flatpak install -y --noninteractive flathub app.zen_browser.zen
 
 echo "Installing display manager..."
 sudo install -Dm 644 ./greetd/config.toml /etc/greetd/config.toml
-sudo install -Dm 644 ./greetd/niri.kdl /etc/greetd/niri.kdl
-sudo install -Dm 644 ./greetd/regreet.toml /etc/greetd/regreet.toml
-sudo install -Dm 664 ./greetd/regreet.css /etc/greetd/regreet.css
-sudo systemctl enable greetd.service
 
 echo "Copying user configs to ~/.config..."
 mkdir -p ~/.config

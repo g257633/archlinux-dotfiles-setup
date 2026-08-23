@@ -25,6 +25,7 @@ mpv
 neovim
 network-manager-applet
 niri
+noctalia
 noto-fonts-cjk
 noto-fonts-emoji
 pacman-contrib
@@ -36,16 +37,6 @@ smartmontools
 sof-firmware
 swappy
 tesseract-data-eng
-texlive-basic
-texlive-bin
-texlive-fontsextra
-texlive-fontsrecommended
-texlive-langportuguese
-texlive-latex
-texlive-latexextra
-texlive-latexrecommended
-texlive-luatex
-texstudio
 ttf-cascadia-mono-nerd
 vim
 wev

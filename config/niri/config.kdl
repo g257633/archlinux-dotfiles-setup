@@ -1,5 +1,5 @@
 include "cfg/animation.kdl"
-// include "cfg/autostart.kdl"
+include "cfg/autostart.kdl"
 include "cfg/autostart.kdl"
 include "cfg/input.kdl"
 include "cfg/output.kdl"

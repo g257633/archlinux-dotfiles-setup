@@ -21,7 +21,7 @@ blur {
 }
 
 switch-events {
-    lid-close { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "sessionMenu" "lockAndSuspend"; }
+    lid-close { spawn "noctalia" "msg" "session" "lock-and-suspend"; }
 }
 
 debug {
