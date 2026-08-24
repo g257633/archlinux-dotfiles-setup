@@ -27,6 +27,12 @@ echo "Copying user configs to ~/.config..."
 mkdir -p ~/.config
 rsync -a ./config/ ~/.config/
 
+echo "Installing ghostty shader"
+mkdir -p ~/.config/ghostty/shaders
+git clone --depth 1 https://github.com/hackr-sh/ghostty-shaders /tmp/ghostty-shaders
+cp /tmp/ghostty-shaders/bloom.glsl ~/.config/ghostty/shaders/
+rm -rf /tmp/ghostty-shaders
+
 echo "Copying Arch Linux wallpapers..."
 mkdir -p ~/Pictures/Wallpapers
 cp /usr/share/backgrounds/archlinux/{landscape,lone,mountain,reflected,snow,svalbard}.jpg ~/Pictures/Wallpapers/

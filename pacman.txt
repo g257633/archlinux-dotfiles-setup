@@ -12,6 +12,7 @@ fastfetch
 fish
 flatpak
 ghostscript
+ghostty
 git
 gnuplot
 greetd
@@ -35,6 +36,7 @@ rsync
 s-tui
 smartmontools
 sof-firmware
+solanum
 swappy
 tesseract-data-eng
 ttf-cascadia-mono-nerd
