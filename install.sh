@@ -22,6 +22,7 @@ flatpak install -y --noninteractive flathub app.zen_browser.zen
 
 echo "Installing display manager..."
 sudo install -Dm 644 ./greetd/config.toml /etc/greetd/config.toml
+sudo systemctl enable greetd.service
 
 echo "Copying user configs to ~/.config..."
 mkdir -p ~/.config
